@@ -1,11 +1,27 @@
 import { useCallback } from "react";
+import { useRouter } from "next/router";
 
 const HomepageDesktop = () => {
+  const router = useRouter();
+
   const onNavLogoClick = useCallback(() => {
     window.open(
-      "https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-nftmarket&utm_medium=figma-samples"
+      "https://www.fiverr.com/samuelenoque/build-a-nextjs-app-and-deploy"
     );
   }, []);
+
+  const onButtonTextClick = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='nFTInfoContainer']"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onButtonText1Click = useCallback(() => {
+    router.push("/latest-news");
+  }, [router]);
 
   const onButtonContainer1Click = useCallback(() => {
     window.open(
@@ -23,7 +39,7 @@ const HomepageDesktop = () => {
           <div className="relative w-[87px] h-[61px]">
             <div className="absolute top-[0px] left-[0px] w-[87px] h-[61px]">
               <div className="absolute top-[8px] left-[1px] leading-[140%]">
-                toMars
+                toMarsToday
               </div>
             </div>
           </div>
@@ -35,7 +51,10 @@ const HomepageDesktop = () => {
               alt=""
               src="/rocketlaunch.svg"
             />
-            <div className="relative leading-[140%] font-semibold">
+            <div
+              className="relative leading-[140%] font-semibold cursor-pointer"
+              onClick={onButtonTextClick}
+            >
               Mission Overview
             </div>
           </div>
@@ -45,7 +64,10 @@ const HomepageDesktop = () => {
               alt=""
               src="/rocketlaunch.svg"
             />
-            <div className="relative leading-[140%] font-semibold">
+            <div
+              className="relative leading-[140%] font-semibold cursor-pointer"
+              onClick={onButtonText1Click}
+            >
               Latest News
             </div>
           </div>
@@ -125,7 +147,10 @@ const HomepageDesktop = () => {
       </div>
       <div className="self-stretch bg-black overflow-hidden flex flex-col py-20 px-0 items-center justify-start text-xl">
         <div className="self-stretch flex flex-col items-center justify-start bg-[url(/nft-highlight@3x.png)] bg-cover bg-no-repeat bg-[top]">
-          <div className="self-stretch [background:linear-gradient(180deg,_rgba(89,_106,_255,_0),_#3c43ff)] flex flex-row pt-[360px] px-[195px] pb-[60px] items-end justify-center">
+          <div
+            className="self-stretch [background:linear-gradient(180deg,_rgba(89,_106,_255,_0),_#3c43ff)] flex flex-row pt-[360px] px-[195px] pb-[60px] items-end justify-center"
+            data-scroll-to="nFTInfoContainer"
+          >
             <div className="w-[1050px] flex flex-row items-end justify-center">
               <div className="flex-1 flex flex-col items-start justify-start">
                 <div className="self-stretch relative leading-[110%] capitalize font-semibold">
