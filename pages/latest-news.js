@@ -8,8 +8,7 @@ const LatestNews = () => {
               <div className="flex-1 flex flex-col items-start justify-start">
                 <div className="self-stretch relative leading-[110%] capitalize font-semibold">
                   <p className="m-0 text-32xl">
-                    Mars City Achieves Astounding Upgrades, Spearheading
-                    Advancements in Extraterrestrial Civilization
+                    Mars City Achieves Astounding Upgrades
                   </p>
                   <p className="m-0 text-32xl">&nbsp;</p>
                   <p className="m-0">
