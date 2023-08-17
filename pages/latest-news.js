@@ -36,7 +36,7 @@ const LatestNews = () => {
                   <p className="m-0">
                     Sustainable Resource Management: Mars City's resource
                     management techniques have undergone a monumental upgrade,
-                    ensuring the efficient utilization of the planet's limited
+                    ensuring the efficient utilization of the planet limited
                     resources. Pioneering techniques in water reclamation and
                     purification have significantly reduced dependency on
                     external supplies, while innovative recycling systems
@@ -48,7 +48,7 @@ const LatestNews = () => {
                   </p>
                   <p className="m-0">
                     Expanded Agricultural Capabilities: Overcoming the
-                    challenges of growing crops in a harsh Martian environment,
+                    challenges of growing crops in a harsh Martian environment;
                     scientists and agronomists have revolutionized agricultural
                     practices within the city's self-contained biospheres.
                     Employing advanced hydroponics and aeroponics systems, they
