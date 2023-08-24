@@ -111,7 +111,7 @@ const HomepageDesktop = () => {
                 <div className="self-stretch flex flex-row items-start justify-start gap-[10px] text-19xl">
                   <div className="flex-1 flex flex-col items-start justify-start gap-[5px]">
                     <b className="self-stretch relative leading-[120%] capitalize">
-                      59
+                      1
                     </b>
                     <div className="self-stretch flex-1 relative text-xs leading-[110%]">
                       Hours
@@ -122,7 +122,7 @@ const HomepageDesktop = () => {
                   </b>
                   <div className="flex-1 flex flex-col items-start justify-start gap-[5px]">
                     <b className="self-stretch relative leading-[120%] capitalize">
-                      59
+                      02
                     </b>
                     <div className="self-stretch flex-1 relative text-xs leading-[110%]">
                       Minutes
@@ -133,7 +133,7 @@ const HomepageDesktop = () => {
                   </b>
                   <div className="flex-1 flex flex-col items-start justify-start gap-[5px]">
                     <b className="self-stretch relative leading-[120%] capitalize">
-                      59
+                      00
                     </b>
                     <div className="self-stretch flex-1 relative text-xs leading-[110%]">
                       Seconds
