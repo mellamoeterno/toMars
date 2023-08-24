@@ -400,7 +400,7 @@ const HomepageDesktop = () => {
               </div>
               <div className="self-stretch flex flex-col items-center justify-center gap-[5px] z-[1]">
                 <div className="self-stretch relative leading-[140%] capitalize font-semibold">
-                  empty
+                  John suarez
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-center gap-[10px] text-right text-base text-caption-label-text">
                   <div className="flex-1 relative leading-[140%]">
@@ -429,7 +429,7 @@ const HomepageDesktop = () => {
               </div>
               <div className="self-stretch flex flex-col items-center justify-center gap-[5px] z-[1]">
                 <div className="self-stretch relative leading-[140%] capitalize font-semibold">
-                  empty
+                  Lenon D. Daniel
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-center gap-[10px] text-right text-base text-caption-label-text">
                   <div className="flex-1 relative leading-[140%]">
